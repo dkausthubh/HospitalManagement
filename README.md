@@ -26,7 +26,6 @@ cd HospitalManagement
 npm install
 ng serve
 ```
-Open http://localhost:4200
 
 ## Future Improvements
 - Connect to an ASP.NET Core Web API with JWT authentication
