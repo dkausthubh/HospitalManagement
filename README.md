@@ -1,27 +1,34 @@
-# HospitalManagementSystem
+# Hospital Management System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+An Angular 16 single-page application for managing hospital operations, including [patients, doctors, appointments, billing].
 
-## Development server
+## Features
+- [Patient registration and records]
+- [Doctor management and scheduling]
+- [Appointment booking]
+- [Role-based views: admin / doctor / patient]
+- [Login and route guards]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tech Stack
+- Angular 16, TypeScript, RxJS
+- [Angular Material / Bootstrap]
+- [REST API backend: .NET / mock JSON server / none]
 
-## Code scaffolding
+## Project Structure
+- `src/app/components`: UI components [confirm folder names]
+- `src/app/services`: API and business logic services
+- `src/app/models`: TypeScript interfaces
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
+```bash
+git clone https://github.com/dkausthubh/HospitalManagement.git
+cd HospitalManagement
+npm install
+ng serve
+```
+Open http://localhost:4200
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Future Improvements
+- Connect to an ASP.NET Core Web API with JWT authentication
+- Add unit tests with Karma/Jasmine
+- Dockerise and deploy
